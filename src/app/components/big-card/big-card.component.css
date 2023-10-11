@@ -1,10 +1,10 @@
 .container__big-card {
-    border: solid aliceblue 2px;
+    border: solid aliceblue 1px;
     margin-left: 10px;
     margin-right: 10px;
 
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 680px;
 
     display: flex;
     flex-direction: column;
@@ -20,4 +20,8 @@
 .big-card__description > p {
     margin-top: 10px;
     color: grey;
+}
+
+.big-card__photo > img {
+    width: 100%;
 }
