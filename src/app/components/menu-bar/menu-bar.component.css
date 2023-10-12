@@ -1,15 +1,26 @@
 
-.container__menu-bar > ul {
+.container__menu-bar > nav {
+    display: flex;
+    align-items: center;
+    font: 120% system-ui;
+}
+
+.container__menu-bar > nav > ul {
     display: flex;
     flex-direction: row;
 }
 
-.container__menu-bar > ul > li {
+.container__menu-bar > nav > ul > li {
     margin-right: 20px;
     list-style: none;
     color: aliceblue;
 }
 
-.container__menu-bar > ul > li > a {
+.container__menu-bar > nav > ul > li > a {
+    text-decoration: none;
     color: aliceblue;
+}
+
+.container__menu-bar > nav > ul > li > a:hover {
+    color: rgb(136, 217, 241);
 }

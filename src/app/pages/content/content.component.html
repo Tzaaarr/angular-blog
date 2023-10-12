@@ -1,17 +1,14 @@
 <div class="container__content">
     
     <div class="content__cover">
-        <img src="https://cdna.artstation.com/p/users/avatars/002/360/774/large/4cafce3ec2777b15b24ee4772409d3df.jpg?1667850407" 
+        <img src="{{ photoCover }}" 
         alt="">
     </div>
     <div class="content__title">
-        <h1>César Augusto de Carvalho</h1>
+        <h1>{{ cardTitle }}</h1>
     </div>
     <div class="content__description">
-        <p>
-            Fullstack Development Student in Sorocaba-SP, Brazil. Studying Software Analysis and Development at PUC-PR. My first "Hello World" was as a teenager, when I met C/C++ and assembly. 
-            Freelance 3D modeler and passionate about arts and technology, some of my hobbies are gaming, reading and cooking.
-        </p>
+        <p>{{ cardDescription }}</p>
         <a [routerLink]="['']">Voltar</a>
     </div>
 
