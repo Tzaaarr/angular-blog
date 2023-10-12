@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #111111;
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 }
 
 a{
     text-decoration: none;
+    color: aliceblue;
 }

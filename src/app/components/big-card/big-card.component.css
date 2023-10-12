@@ -1,5 +1,5 @@
 .container__big-card {
-    border: solid aliceblue 1px;
+    
     margin-left: 10px;
     margin-right: 10px;
 
@@ -17,11 +17,15 @@
     font-size: 20px;
 }
 
+.big-card__title > h1 > a {
+    color: aliceblue;
+}
+
 .big-card__description > p {
     margin-top: 10px;
     color: grey;
 }
 
 .big-card__photo > img {
-    width: 100%;
+    width: 70%;
 }

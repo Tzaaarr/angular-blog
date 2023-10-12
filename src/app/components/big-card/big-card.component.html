@@ -1,22 +1,16 @@
 <div class="container__big-card">
 
     <div class="big-card__photo">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff9%2F2a%2F78%2Ff92a789e70d24b0115a76bc6c1ecbeb7.jpg&f=1&nofb=1&ipt=295f1a170f6e17e8724862c6488028828d11b677bbde9f6caeb8e6b211a5fd04&ipo=images" 
+        <img src="{{ photoCover }}" 
             alt="" >
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">The Big Card Title</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     
     <div class="big-card__description">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi pretium ante dui, et molestie neque semper non. Sed blandit, 
-            dui a imperdiet pharetra, nunc augue vestibulum libero, eu dignissim 
-            augue dolor vitae nisl. Suspendisse eu risus in sem cursus vehicula in 
-            id odio. Praesent sollicitudin a eros facilisis blandit.
-        </p>
+        <p>{{ cardDescription }}</p>
     </div>
 
 </div>

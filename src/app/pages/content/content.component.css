@@ -1,0 +1,30 @@
+.container__content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__cover > img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+
+.content__title {
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.content__description {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__description > p {
+    width: 60%;
+    color: gray;
+    margin-bottom: 20px;
+}
